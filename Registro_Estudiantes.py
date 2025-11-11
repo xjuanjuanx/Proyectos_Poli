@@ -1,16 +1,4 @@
-"""
-Caso 3: Registro de Estudiantes en un Curso
-Un curso de programación recibe estudiantes. Se requiere registrar sus nombres, edades y ciudad. Al final, mostrar los mayores de edad y contar cuántos son de cada ciudad.
-Objetivos:
-•	Leer y almacenar datos con tuplas o diccionarios.
-•	Analizar datos por ciudad.
-•	Filtrar por condición (mayoría de edad).
-Retos:
-•	Usar tuplas dentro de listas.
-•	Hacer conteo de ciudades usando un diccionario.
-Estructuras usadas: listas, tuplas, condicionales, ciclos, diccionarios
 
-"""
 import os
 estudiantes = []
 cantXCiudad = {}
@@ -68,3 +56,4 @@ while True:
         case _:
             print("Opcion no valida")
             input("Precione una tecla para continuar")
+
