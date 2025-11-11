@@ -1,18 +1,3 @@
-"""
-Caso 1: Control de Temperatura en una Bodega
-Una bodega de alimentos perecederos requiere un sistema que verifique las temperaturas registradas cada hora. Si alguna supera los 8°C, se debe alertar al supervisor.
-Objetivos:
-•	Leer datos (estructura secuencial).
-•	Usar condicional para validar límites.
-•	Usar listas para almacenar lecturas.
-Retos:
-•	Mostrar todas las temperaturas.
-•	Calcular promedio.
-•	Mostrar cuántas excedieron el límite.
-
-Estructuras usadas: listas, secuencias, condicionales
-
-"""
 import os
 temperatura = []
 salir = False
@@ -56,4 +41,5 @@ while not salir:
             input("Precione una tecla para continuar")
         case _:
             print("Opcion no valida")
+
             input("Precione una tecla para continuar")
