@@ -2,8 +2,6 @@ import os
 temperatura = []
 salir = False
 cont = 0
-tempA = 0
-tempB = 99999
 while not salir:
     os.system("cls")
     print("===== MENUS PRINCIPAL =====")
@@ -15,31 +13,30 @@ while not salir:
             temp = float(input("\nIngrese la temperatura actual:\n"))
             temperatura.append(temp)
             if temp > 8.0:
-                print(f"!!!ALERTA!!!.... La temperatura ingresada {temp} supera los 8°C")
+                print(f"La temperatura ingresada {temp} supera los 8°C")
                 cont +=1
-            input("Dato almacenado, Precione una tecla para continuar")
+            input("Dato almacenado, Presione una tecla para continuar")
         case 2:
             if (len(temperatura)== 0):
                 print("No hay temperturas registradas")
             else:
                 for i in range(0,len(temperatura)):
                     print(f"Temperatura #{i+1} es: {temperatura[i]}°C")
-                input("Dato almacenado, Precione una tecla para continuar")
+                input("Dato almacenado, Presione una tecla para continuar")
         case 3:
             if (len(temperatura)== 0):
                 print("No hay Datos para el promedio")
-                input("Precione una tecla para continuar")
+                input("Presione una tecla para continuar")
             else:
                 print(f"El promedio de temperaturas es: {round(sum(temperatura)/len(temperatura),2)}°C")
-                input("Precione una tecla para continuar")
+                input("Presione una tecla para continuar")
         case 4:
             print(f"Cantidad de temperaturas que excedieron los 8°: {cont}")
-            input("Precione una tecla para continuar")
+            input("Presione una tecla para continuar")
         case 5:
             print("Hasta luego")
             salir = True
-            input("Precione una tecla para continuar")
+            input("Presione una tecla para continuar")
         case _:
             print("Opcion no valida")
-
-            input("Precione una tecla para continuar")
+            input("Presione una tecla para continuar")
