@@ -1,13 +1,4 @@
-"""
-Caso 4: Control de Inventario de una Librería
-Una librería lleva un inventario en el que registra nombre del libro, cantidad y precio. Debe permitir actualizar la cantidad y mostrar el inventario ordenado alfabéticamente.
-Objetivos:
-•	Representar inventario con diccionarios o listas de tuplas.
-•	Agregar, buscar y modificar datos.
-•	Ordenar alfabéticamente por título.
-Estructuras usadas: diccionarios, tuplas, ciclos, condicionales
 
-"""
 import os
 nombreLibro = []
 precioLibro = []
@@ -84,3 +75,4 @@ while True:
             
         
             
+
