@@ -1,13 +1,4 @@
-"""
-Reto Final: Crea tu propio sistema
-Con todo lo aprendido, diseña un programa que permita a un restaurante digital gestionar sus pedidos, clasificar clientes por frecuencia, y generar un reporte diario.
-Debe incluir:
-•	Entrada de datos secuenciales.
-•	Validación con condicionales.
-•	Almacenamiento con listas, tuplas y diccionarios.
-•	Uso de ciclos para procesar.
 
-"""
 import os
 venta = {}
 clientes = []
@@ -197,3 +188,4 @@ while True:
                         
                             
                 
+
