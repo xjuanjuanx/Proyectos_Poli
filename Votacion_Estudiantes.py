@@ -1,16 +1,4 @@
-"""
-Caso 5: Simulación de Sistema de Votación Estudiantil
-Un grupo de estudiantes organiza una votación para elegir representante. Cada estudiante vota una vez por uno de los candidatos. Se debe contar los votos y declarar un ganador.
-Objetivos:
-•	Recoger votos.
-•	Usar diccionario para contar.
-•	Determinar el más votado.
-Retos:
-•	Validar entrada.
-•	Manejar empates.
-Estructuras usadas: diccionario, ciclos, condicionales
 
-"""
 import os
 votoMa = 0
 votoMe = 999999
@@ -208,4 +196,5 @@ while True:
             break 
         case _:
             print("Opcion no valida")
+
             input("Precione una tecla para continuar")   
