@@ -1,15 +1,4 @@
-"""
-Caso 2: Clasificación de Clientes en una Tienda Virtual
-La tienda clasifica a sus clientes según sus compras mensuales. Si el monto es mayor a 1.000.000 es “Premium”, si es mayor a 500.000 es “Oro”, de lo contrario es “Básico”.
-Objetivos:
-•	Almacenar nombre y total comprado de varios clientes.
-•	Clasificarlos en una categoría.
-Retos:
-•	Guardar datos en diccionario con nombre como clave.
-•	Mostrar la categoría de cada cliente.
-Estructuras usadas: diccionarios, condicionales, listas
 
-"""
 import os
 clientes = []
 ventas = []
@@ -57,3 +46,4 @@ while True:
             print("Opcion no valida")
             input("Precione una tecla para continuar...")         
     
+
